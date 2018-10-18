@@ -25,11 +25,15 @@ const Elena = new Owner('Elena', 'Mitte', Odette, ['Sunday','Monday evening'])
 
 const playdate1= new PlayDate('10-11-2018 at 10am', 'Grunewald', [Jago, Odette])
 
+const playdate2= new PlayDate('10-12-2018 at 12am', 'Shoneberg', [Buddy, Odette])
+
 Buddy.attend(playdate1)
 
-playdate1.info()
+//playdate1.info()
 
 Database.save(playdate1)
+Database.save(playdate2)
+
 
 const loadedFile = Database.load()
 
