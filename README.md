@@ -6,10 +6,10 @@ A useful tool to find new friends for your dog and organize playdates!!
 
 Classes:
 
-Dog
+    Dog
 
-Owner
+    Owner
 
-Playdate
+    Playdate
 
 
