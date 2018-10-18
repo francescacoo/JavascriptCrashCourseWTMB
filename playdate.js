@@ -8,7 +8,12 @@ module.exports=class PlayDate{
 
     // haven't found yet how to print only the name of the dog attending and not the whole object. If I use this.attendees.name it doesn't work... Will keep researching!
     info() {
-        console.log(this.attendees, ' are meeting at: ', this.place, ' on: ', this.date)
+
+        this.attendees.forEach(function(item,index,array) {
+            console.log(item.getName())
+        });
+
+        console.log(' are meeting at: ', this.place, ' on: ', this.date)
     }
 
 

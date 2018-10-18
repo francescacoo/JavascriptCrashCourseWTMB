@@ -14,6 +14,10 @@ module.exports=class Dog{
         console.log(this.name, ' is old', this.age, ' breed is', this.breed)
     }
 
+    getName(){
+        return this.name;
+    }
+
     like(){
         console.log(this.name, 'likes: ')
         this.likes.forEach(function(item,index,array) {

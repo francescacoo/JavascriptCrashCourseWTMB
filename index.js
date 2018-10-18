@@ -27,7 +27,7 @@ const playdate1= new PlayDate('10-11-2018 at 10am', 'Grunewald', [Jago, Odette])
 
 Buddy.attend(playdate1)
 
-//playdate1.info()
+playdate1.info()
 
 Database.save(playdate1)
 
