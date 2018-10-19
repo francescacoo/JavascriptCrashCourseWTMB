@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/francescacoo/JavascriptCrashCourseWTMB/issues"
   },
-  "homepage": "https://github.com/francescacoo/JavascriptCrashCourseWTMB#readme"
+  "homepage": "https://github.com/francescacoo/JavascriptCrashCourseWTMB#readme",
+  "dependencies": {
+    "circular-json": "^0.5.7"
+  }
 }
