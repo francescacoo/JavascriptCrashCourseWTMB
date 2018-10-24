@@ -15,4 +15,6 @@ has a name, district, preferred days for walks, own one or more dogs
 **Playdate**
 has a date, place and attendees
 
+**Location**
+
 
