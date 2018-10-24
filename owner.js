@@ -1,9 +1,9 @@
 module.exports=class Owner{
-    constructor(name, district, pets, preferred_days){
+    constructor(name, district, pets, preferredDays){
         this.name=name
         this.district=district
         this.pets=pets
-        this.preferred_days=preferred_days     
+        this.preferreDays=preferredDays     
     }
 
   
@@ -13,7 +13,7 @@ module.exports=class Owner{
 
     preferred_day(){
         console.log(this.name, 'available on: ')
-        this.preferred_days.forEach(function(item,index,array) {
+        this.preferredDays.forEach(function(item,index,array) {
             console.log(item)
         });
     }

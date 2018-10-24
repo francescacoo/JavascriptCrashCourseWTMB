@@ -18,14 +18,14 @@ module.exports=class Dog{
         return this.name;
     }
 
-    like(){
+    ShowKikes(){
         console.log(this.name, 'likes: ')
         this.likes.forEach(function(item,index,array) {
             console.log(item)
         });
     }
 
-    dislike(){
+    ShowDislikes(){
         console.log(this.name, 'dislikes: ')
         this.dislikes.forEach(function(item,index,array) {
             console.log(item)

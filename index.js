@@ -12,9 +12,9 @@ const Odette=new Dog('Odette',6,'Husky mix',['walking', 'exploring new areas'], 
 
 //Jago.info()
 
-//Jago.like()
+//Jago.ShowLikes()
 
-//Jago.dislike()
+//Jago.ShowDislikes()
 
 const Francesca = new Owner('francesca','Licherfelde', [Jago, Buddy], ['Saturday','Sunday'])
 

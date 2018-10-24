@@ -1,15 +1,15 @@
 module.exports=class Location{
-    constructor(name, address, facilities, opening_hours, map_address){
+    constructor(name, address, facilities, openingHours, mapAddress){
         this.name=name
         this.address=address
         this.facilities=facilities
-        this.opening_hours=opening_hours     
-        this.map_address=map_address
+        this.openingHours=openingHours     
+        this.mapAddress=mapAddress
     }
 
   
     info() {
-        return this.name + this.address +this.facilities+this.opening_hours+this.map_address
+        return this.name + this.address +this.facilities+this.openingHours+this.mapAddress
     }
 
     getName(){
