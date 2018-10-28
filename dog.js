@@ -7,6 +7,13 @@ module.exports=class Dog{
         this.dislikes=dislikes
     }
 
+    static create({name,age,breed,likes, dislikes}){
+        const dog = new Dog(name,age,breed)
+        dog.likes=likes.map(Dog.create)
+        dog.dislikes=dislikes.map(Dog.create)
+        return dog
+    }
+
     attend(playdate){
         playdate.attendees.push(this)
     }

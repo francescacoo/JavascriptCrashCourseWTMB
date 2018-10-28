@@ -6,6 +6,13 @@ module.exports=class Owner{
         this.preferreDays=preferredDays     
     }
 
+    static create({name,district,pets,preferredDays}){
+        const owner = new Owner(name,district)
+        owner.pets=pets.map(Owner.create)
+        owner.preferreDays=preferredDays.map(Owner.create)
+        return owner
+    }
+
   
     info() {
         console.log(this.name, ' is located in', this.district, ' and owns', this.pets)
